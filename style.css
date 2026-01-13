@@ -464,6 +464,12 @@ li {
   margin: 0 0.5em;
 }
 
+/* Full Width Content Layout */
+#content.full-width-content {
+  display: block;
+  max-width: 900px;
+}
+
 /* Experience Page Styles */
 .experience-item {
   display: flex;
