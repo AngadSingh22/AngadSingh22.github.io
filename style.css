@@ -464,6 +464,57 @@ li {
   margin: 0 0.5em;
 }
 
+/* Experience Page Styles */
+.experience-item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.experience-image {
+  flex-shrink: 0;
+  width: 150px;
+}
+
+.experience-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-content strong {
+  font-size: 1.1em;
+}
+
+.experience-content .date {
+  display: block;
+  color: #666;
+  font-size: 0.9em;
+  margin: 5px 0 10px 0;
+}
+
+.experience-content p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    flex-direction: column;
+  }
+  
+  .experience-image {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
 /* Theme Toggle Button */
 #theme-toggle {
   position: fixed;
